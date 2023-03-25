@@ -22,5 +22,16 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Pawel1894/number-to-local-currency.git"
-  }
+  },
+  "keywords": [
+    "format",
+    "currency",
+    "javascript",
+    "typescript",
+    "local currency",
+    "user currency",
+    "format number to currency",
+    "format number to local currency",
+    "convert number to currency"
+  ]
 }
