@@ -1,6 +1,6 @@
 {
   "name": "number-to-local-currency",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -18,5 +18,9 @@
     "@changesets/cli": "^2.26.1",
     "tsup": "^6.7.0",
     "typescript": "^5.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pawel1894/number-to-local-currency.git"
   }
 }
