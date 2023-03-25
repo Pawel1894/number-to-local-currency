@@ -9,13 +9,13 @@
 using npm:
 
 ```bash
-$ npm install axios
+$ npm install number-to-local-currency
 ```
 
 using pnpm:
 
 ```bash
-$ pnpm install axios
+$ pnpm install number-to-local-currency
 ```
 
 using CDN
@@ -33,7 +33,7 @@ import { format } from "number-to-local-currency";
 or
 
 ```js
-const format = require("number-to-local-currency")
+const format = require("number-to-local-currency");
 ```
 
 ## Examples
@@ -41,14 +41,14 @@ const format = require("number-to-local-currency")
 Simple usage
 
 ```js
-  format(993.43) // when user is in USA - formatting number to US currency with US formatting  output: $ 999.43
-  format(993.43) // when user is in Poland - formatting number to Polish currency with US formatting  output: PLN 999.43
+format(993.43); // when user is in USA - formatting number to US currency with US formatting  output: $ 999.43
+format(993.43); // when user is in Poland - formatting number to Polish currency with US formatting  output: PLN 999.43
 ```
 
 When changing default formatting type, all formats type must be compatible with javascript's Intl
 
 ```js
-  format(993.43, "fr") // formatting number to polish currency with french formatting  output: 993,43 PLN  
+format(993.43, "fr"); // formatting number to polish currency with french formatting  output: 993,43 PLN
 ```
 
 ## How it works
@@ -60,11 +60,11 @@ When changing default formatting type, all formats type must be compatible with 
 
 ## Function params
 
-- ```value``` - Number you want to format
-- ```numberFormat``` - Select format type compatible with javascript Intl - default value is en-US
-- ```fallbackCountryCurrency``` - In case something goes wrong and javascript isn't able to identify the user's country, you can set fallback country - default is US
+- `value` - Number you want to format
+- `numberFormat` - Select format type compatible with javascript Intl - default value is en-US
+- `fallbackCountryCurrency` - In case something goes wrong and javascript isn't able to identify the user's country, you can set fallback country - default is US
 
-## Credits 
+## Credits
 
 This function work using the following three libraries: [moment-timezone](https://www.npmjs.com/package/moment-timezone) & [country-to-currency](https://www.npmjs.com/package/country-to-currency) & [countries-and-timezones](https://www.npmjs.com/package/countries-and-timezones)
 
