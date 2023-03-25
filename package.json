@@ -1,0 +1,21 @@
+{
+  "name": "number-to-local-currency",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "type": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "countries-and-timezones": "^3.4.1",
+    "country-to-currency": "^1.0.8",
+    "moment-timezone": "^0.5.42"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.2"
+  }
+}
