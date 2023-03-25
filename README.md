@@ -67,3 +67,7 @@ When changing default formatting type, all formats type must be compatible with 
 ## Credits 
 
 This function work using the following three libraries: [moment-timezone](https://www.npmjs.com/package/moment-timezone) & [country-to-currency](https://www.npmjs.com/package/country-to-currency) & [countries-and-timezones](https://www.npmjs.com/package/countries-and-timezones)
+
+## License
+
+[MIT](LICENSE)
