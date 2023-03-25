@@ -70,4 +70,4 @@ This function work using the following three libraries: [moment-timezone](https:
 
 ## License
 
-[MIT](LICENSE)
+MIT
