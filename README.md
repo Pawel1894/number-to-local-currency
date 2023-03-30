@@ -1,8 +1,6 @@
-<h1 align="center">
-        Format number to local currency
-</h1>
+# Format number to local currency
 
-<p align="center">Single function enabling you to format number to currency with user's local currency sign.</p>
+Single function enabling you to format number to currency with user's local currency sign.
 
 ### Installing
 
